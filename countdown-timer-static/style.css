@@ -1,10 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+body {
+  background-image: url("https://images.unsplash.com/photo-1639532251091-94e0d8f98f72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1762&q=80");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  font-family: 'Secular One', sans-serif;
 }
 
-body {
+/*body {
   font-family: "Lato", sans-serif;
 }
 
@@ -17,10 +20,11 @@ h2 {
 .coming-soon {
   min-height: 100vh;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  background-image: url("./images/example1.jpg");
+  background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80");
+  background-repeat: no-repeat;
   background-size: 100%;
 }
 
@@ -40,4 +44,12 @@ h2 {
 
 .waiting {
   height: 50vh;
+}*/
+
+.timer{
+  margin-top: 150px;
+}
+
+.title-count{
+  background-color: #fbc02d ;
 }
